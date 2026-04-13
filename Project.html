@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Your Name</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <a href="../index.html" class="logo">YourName</a>
+            <ul class="nav-links">
+                <li><a href="../index.html#home">Home</a></li>
+                <li><a href="../index.html#skills">Skills</a></li>
+                <li><a href="index.html" class="active">Projects</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Projects Header -->
+    <section class="projects-header">
+        <div class="container">
+            <h1>My Projects</h1>
+            <p>Explore my work organized by technology and complexity</p>
+            <div class="filter-tabs">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="html">HTML/CSS</button>
+                <button class="filter-btn" data-filter="python">Python</button>
+                <button class="filter-btn" data-filter="mixed">Mixed</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- All Projects Grid -->
+    <section class="all-projects">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-item" data-category="html">
+                    <div class="project-item-header">
+                        <span class="project-category">HTML/CSS</span>
+                        <span class="project-date">Dec 2023</span>
+                    </div>
+                    <h3><a href="project1.html">Responsive Portfolio Website</a></h3>
+                    <p>Complete portfolio with mobile-first responsive design, CSS animations, and semantic HTML.</p>
+                    <div class="project-stats">
+                        <span><i class="fas fa-code"></i> 850 lines</span>
+                        <span><i class="fas fa-clock"></i> 25 hours</span>
+                        <span class="complexity intermediate">Intermediate</span>
+                    </div>
+                    <a href="project1.html" class="project-view-btn">View Details →</a>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-item" data-category="python">
+                    <div class="project-item-header">
+                        <span class="project-category">Python</span>
+                        <span class="project-date">Jan 2024</span>
+                    </div>
+                    <h3><a href="project2.html">File Organizer Script</a></h3>
+                    <p>Automates file organization by extension with error logging and user configuration.</p>
+                    <div class="project-stats">
+                        <span><i class="fas fa-code"></i> 150 lines</span>
+                        <span><i class="fas fa-clock"></i> 8 hours</span>
+                        <span class="complexity beginner">Beginner</span>
+                    </div>
+                    <a href="project2.html" class="project-view-btn">View Code →</a>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-item" data-category="mixed">
+                    <div class="project-item-header">
+                        <span class="project-category">Mixed</span>
+                        <span class="project-date">Feb 2024</span>
+                    </div>
+                    <h3><a href="project3.html">Static Site Generator</a></h3>
+                    <p>Python script that generates HTML pages from markdown with template inheritance.</p>
+                    <div class="project-stats">
+                        <span><i class="fas fa-code"></i> 300 lines</span>
+                        <span><i class="fas fa-clock"></i> 15 hours</span>
+                        <span class="complexity intermediate">Intermediate</span>
+                    </div>
+                    <a href="project3.html" class="project-view-btn">View Project →</a>
+                </div>
+
+                <!-- Project 4 (Future) -->
+                <div class="project-item" data-category="html">
+                    <div class="project-item-header">
+                        <span class="project-category">HTML/CSS</span>
+                        <span class="project-date">Coming Soon</span>
+                    </div>
+                    <h3><a href="#">E-commerce Product Grid</a></h3>
+                    <p>Responsive product grid with filters, hover effects, and cart functionality (CSS only).</p>
+                    <div class="project-stats">
+                        <span><i class="fas fa-code"></i> 600 lines</span>
+                        <span><i class="fas fa-clock"></i> 20 hours</span>
+                        <span class="complexity advanced">Advanced</span>
+                    </div>
+                    <a href="#" class="project-view-btn disabled">In Progress</a>
+                </div>
+
+                <!-- Project 5 (Future) -->
+                <div class="project-item" data-category="python">
+                    <div class="project-item-header">
+                        <span class="project-category">Python</span>
+                        <span class="project-date">Coming Soon</span>
+                    </div>
+                    <h3><a href="#">Expense Tracker CLI</a></h3>
+                    <p>Command-line expense tracker with CSV export and data visualization.</p>
+                    <div class="project-stats">
+                        <span><i class="fas fa-code"></i> 250 lines</span>
+                        <span><i class="fas fa-clock"></i> 12 hours</span>
+                        <span class="complexity intermediate">Intermediate</span>
+                    </div>
+                    <a href="#" class="project-view-btn disabled">Planning Stage</a>
+                </div>
+
+                <!-- Project 6 (Future) -->
+                <div class="project-item" data-category="mixed">
+                    <div class="project-item-header">
+                        <span class="project-category">Mixed</span>
+                        <span class="project-date">Future</span>
+                    </div>
+                    <h3><a href="#">API Documentation Generator</a></h3>
+                    <p>Python backend that generates styled HTML documentation from code comments.</p>
+                    <div class="project-stats">
+                        <span><i class="fas fa-code"></i> 400+ lines</span>
+                        <span><i class="fas fa-clock"></i> 30+ hours</span>
+                        <span class="complexity advanced">Advanced</span>
+                    </div>
+                    <a href="#" class="project-view-btn disabled">On Roadmap</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Back to Main -->
+    <section class="back-to-main">
+        <div class="container">
+            <a href="../index.html" class="btn">
+                <i class="fas fa-arrow-left"></i> Back to Main Portfolio
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Your Name. Browse my projects.</p>
+        </div>
+    </footer>
+</body>
+</html>
+<style>
+/* Projects Page Styles */
+.projects-header {
+    padding: 4rem 0 2rem;
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+    text-align: center;
+}
+
+.projects-header h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--secondary);
+}
+
+.projects-header p {
+    color: var(--gray);
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.filter-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.filter-btn {
+    padding: 0.5rem 1.5rem;
+    border: 2px solid var(--primary);
+    background: transparent;
+    color: var(--primary);
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.filter-btn.active,
+.filter-btn:hover {
+    background: var(--primary);
+    color: white;
+}
+
+/* All Projects Grid */
+.all-projects {
+    padding: 4rem 0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.project-item {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #e2e8f0;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+.project-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.project-category {
+    background: #dbeafe;
+    color: var(--primary);
+    padding: 0.3rem 1rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.project-date {
+    color: var(--gray);
+    font-size: 0.9rem;
+}
+
+.project-item h3 {
+    margin: 0.5rem 0 1rem;
+    font-size: 1.5rem;
+}
+
+.project-item h3 a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+.project-item h3 a:hover {
+    color: var(--primary);
+}
+
+.project-item p {
+    color: var(--gray);
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+}
+
+.project-stats {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+    color: var(--gray);
+    font-size: 0.9rem;
+}
+
+.project-stats i {
+    margin-right: 0.5rem;
+    color: var(--primary);
+}
+
+.complexity {
+    padding: 0.2rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.complexity.beginner {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.complexity.intermediate {
+    background: #fef9c3;
+    color: #854d0e;
+}
+
+.complexity.advanced {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.project-view-btn {
+    display: inline-block;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 0;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s;
+}
+
+.project-view-btn:hover {
+    border-color: var(--primary);
+}
+
+.project-view-btn.disabled {
+    color: var(--gray);
+    cursor: not-allowed;
+}
+
+.project-view-btn.disabled:hover {
+    border-color: transparent;
+}
+
+.back-to-main {
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 1px solid #e2e8f0;
+}
+
+.btn-secondary {
+    background: transparent;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+}
+
+.btn-secondary:hover {
+    background: var(--primary);
+    color: white;
+}
+
+/* Project Detail Page */
+.project-detail {
+    padding: 2rem 0 4rem;
+}
+
+.project-header {
+    margin-bottom: 3rem;
+}
+
+.project-breadcrumb {
+    margin-bottom: 2rem;
+    color: var(--gray);
+}
+
+.project-breadcrumb a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.project-breadcrumb span {
+    color: var(--gray);
+}
+
+.project-title-section h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.project-subtitle {
+    color: var(--gray);
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.project-tags {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.project-tag {
+    padding: 0.3rem 1rem;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.project-tag.html {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.project-tag.css {
+    background: #dbeafe;
+    color: #1e40af;
+}
+
+.project-tag.python {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.project-tag.responsive {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.project-tag.accessibility {
+    background: #e0e7ff;
+    color: #3730a3;
+}
+
+.project-meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    background: #f8fafc;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.meta-item i {
+    color: var(--primary);
+    font-size: 1.2rem;
+}
+
+.content-section {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.content-section:last-child {
+    border-bottom: none;
+}
+
+.content-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--secondary);
+}
+
+.content-section h2 i {
+    margin-right: 0.5rem;
+    color: var(--primary);
+}
+
+.content-section h3 {
+    font-size: 1.3rem;
+    margin: 1.5rem 0 1rem;
+    color: var(--secondary);
+}
+
+.features-checklist {
+    list-style: none;
+    padding: 0;
+}
+
+.features-checklist li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f1f5f9;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.features-checklist li:last-child {
+    border-bottom: none;
+}
+
+.features-checklist i {
+    color: var(--success);
+    font-size: 1.2rem;
+}
+
+.project-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.project-link-btn {
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: var(--secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.project-link-btn:hover {
+    border-color: var(--primary);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.1);
+}
+
+.project-link-btn i {
+    font-size: 2rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.project-link-btn span {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.project-link-btn small {
+    color: var(--gray);
+    font-size: 0.9rem;
+}
+
+.footer-link {
+    color: var(--primary);
+    text-decoration: none;
+    margin-top: 0.5rem;
+    display: inline-block;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+/* Add to main style.css */
+.project-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.projects-cta {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+</style>
